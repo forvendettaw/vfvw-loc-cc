@@ -1,3 +1,13 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: *
 Allow: /
+
 Sitemap: https://vfvw.loc.cc/sitemap.xml
