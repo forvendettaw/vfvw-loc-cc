@@ -10,4 +10,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://vfvw.loc.cc/sitemap.xml
+Sitemap: http://vfvw.loc.cc/sitemap.xml
