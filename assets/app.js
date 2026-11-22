@@ -284,6 +284,7 @@
   article.dataset.readerReady = 'true';
 
   const hasBody = body.dataset.readerEmpty !== 'true';
+  const isBrief = Boolean(article.closest('.reader-brief'));
   const progress = article.querySelector('#reader-progress');
   const progressLabel = article.querySelector('#reader-progress-label');
   const progressTrack = article.querySelector('.reader-progress-track');
@@ -293,6 +294,7 @@
   const fontLabel = article.querySelector('#reader-font-label');
   const topbar = document.querySelector('.site-header');
   document.body.classList.add('reading-mode');
+  if (isBrief) document.body.classList.add('reading-brief');
   const toolbarHost = document.querySelector('.nav-tools');
   if (toolbar && toolbarHost) toolbarHost.prepend(toolbar);
   const toc = article.querySelector('.reader-toc');
@@ -369,7 +371,7 @@
     const height = viewportHeight();
     const inset = topInset();
     article.style.setProperty('--reader-scroll-offset', `${inset + 24}px`);
-    if (hasBody && progress) {
+    if (hasBody && progress && !isBrief) {
       const visibleHeight = height - inset;
       const travel = rect.height - visibleHeight;
       // For a long body: 0 at its top reading edge, 100 when its end is visible.
@@ -395,7 +397,8 @@
 
   if (hasBody) {
     if (toolbar) toolbar.hidden = false;
-    if (progressTrack) progressTrack.hidden = false;
+    // Briefs keep font controls but omit the long-form progress indicator.
+    if (progressTrack) progressTrack.hidden = isBrief;
     let fontSize = clamp(Math.round(parseFloat(window.getComputedStyle(body).fontSize) || 18), 16, 22);
     function applyFontSize(commit = true) {
       if (commit) article.style.setProperty('--reader-font-size', `${fontSize}px`);
