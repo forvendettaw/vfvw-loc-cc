@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>http://vfvw.loc.cc/</loc><lastmod>2026-11-22</lastmod></url>
-<url><loc>http://vfvw.loc.cc/categories/ai.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>http://vfvw.loc.cc/</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>http://vfvw.loc.cc/categories/ai.html</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>http://vfvw.loc.cc/categories/frontier.html</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>http://vfvw.loc.cc/categories/nomad.html</loc><lastmod>2026-11-10</lastmod></url>
 <url><loc>http://vfvw.loc.cc/categories/fusion.html</loc><lastmod>2026-11-07</lastmod></url>
-<url><loc>http://vfvw.loc.cc/categories/stocks.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>http://vfvw.loc.cc/categories/stocks.html</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>http://vfvw.loc.cc/categories/life.html</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>http://vfvw.loc.cc/categories/space.html</loc><lastmod>2026-11-22</lastmod></url>
-<url><loc>http://vfvw.loc.cc/categories/robotics.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>http://vfvw.loc.cc/categories/space.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>http://vfvw.loc.cc/categories/robotics.html</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>http://vfvw.loc.cc/categories/gene.html</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>http://vfvw.loc.cc/posts/1.html</loc><lastmod>2026-11-02</lastmod></url>
 <url><loc>http://vfvw.loc.cc/posts/7.html</loc><lastmod>2026-11-04</lastmod></url>
@@ -109,4 +109,11 @@
 <url><loc>http://vfvw.loc.cc/posts/502.html</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>http://vfvw.loc.cc/posts/505.html</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>http://vfvw.loc.cc/posts/518.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>http://vfvw.loc.cc/posts/551.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>http://vfvw.loc.cc/posts/571.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>http://vfvw.loc.cc/posts/572.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>http://vfvw.loc.cc/posts/582.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>http://vfvw.loc.cc/posts/624.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>http://vfvw.loc.cc/posts/639.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>http://vfvw.loc.cc/posts/649.html</loc><lastmod>2026-11-24</lastmod></url>
 </urlset>
